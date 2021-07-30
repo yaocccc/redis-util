@@ -8,7 +8,8 @@
   "main": "dist/index.js",
   "dependencies": {
     "ioredis": "^4.27.6",
-    "redlock": "^4.2.0"
+    "redlock": "^4.2.0",
+    "utils": "git+https://github.com/yaocccc/utils.git"
   },
   "devDependencies": {
     "@types/redlock": "^4.0.2",

@@ -1,7 +1,8 @@
 import * as Redis from 'ioredis';
 import * as Redlock from 'redlock';
 
-const unique = <T>(arr: T[]): T[] => Array.from(new Set(arr));
+import { unique }  from 'utils';
+
 type KeyType = 'LOCKED' | 'REDLOCK' | 'LIMITER';
 
 /**
